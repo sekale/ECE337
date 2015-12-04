@@ -1,0 +1,9 @@
+QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+Start time: 19:11:14 on Dec 03,2015
+vlog -sv -work source_work source/flex_counter.sv 
+-- Compiling module flex_counter
+
+Top level modules:
+	flex_counter
+End time: 19:11:15 on Dec 03,2015, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

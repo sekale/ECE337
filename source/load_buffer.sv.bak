@@ -1,0 +1,74 @@
+// $Id: $
+// File name:   load_buffer.sv
+// Created:     11/30/2015
+// Author:      Siddhant Ekale
+// Lab Section: 337-04
+// Version:     1.0  Initial Design Entry
+// Description: load the 128 byte values.
+
+
+module load_buffer
+(
+	input wire clk,
+	input wire n_rst,
+	input wire shift_in,
+	input wire[7:0] data_in,
+	output reg[127:0][7:0] buffer_out_val
+);
+
+reg [127:0][7:0] nxt_buffer;
+
+int i,j; //indices to keep track of the buffer out and the next_buffer values
+int i1,j1;
+always_ff @(posedge clk, negedge n_rst)
+begin
+	
+	if(n_rst == 1'b0) //reset is active-low asynchronus
+	begin
+		buffer_out_val <= '0;
+	end
+
+	else begin
+		for(i = 0; i < 127; i++)
+			begin
+			for(j = 0; j < 7; j++)
+				begin
+
+					buffer_out_val[i][j] <= nxt_buffer[i][j];
+
+				end//second for loop ends
+			end //first for loop ends
+	end //else ends	
+end
+
+
+always_comb
+begin
+
+	if(shift_in == 1'b1)
+	begin
+
+		for(i = 1; i < 127; i++)
+		begin
+			for(j = 0; j < 7 ; j++)
+			begin
+				nxt_buffer[i][j] = buffer_out_val[i-1][j];
+			end
+		end
+		nxt_buffer[0] = data_in;
+	end
+
+	else
+	begin
+
+		for(i = 0; i < 127; i++)
+		begin
+			for(j=0; j<7; j++)
+			begin
+				nxt_buffer[i][j] = buffer_out_val[i][j];
+			end
+		end //second for loop ends
+	end//else ends
+
+end
+endmodule
