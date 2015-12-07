@@ -223,8 +223,10 @@ begin
 
 		if(shift_in == 1'b1)
 		begin
+
 			next_state = load_buffer;
 			count_out_next = count_out + 1;
+
 		end
 
 		else
@@ -379,6 +381,146 @@ end//idle state ends
 		
 		if(shift_in == 1'b0)
 		begin
+		nxt_buffer[0][7:0] = nxt_buffer[0][7:0];
+		nxt_buffer[1][7:0] = nxt_buffer[1][7:0];
+		nxt_buffer[2][7:0] = nxt_buffer[2][7:0];
+		nxt_buffer[3][7:0] = nxt_buffer[3][7:0];
+		nxt_buffer[4][7:0] = nxt_buffer[4][7:0];
+		nxt_buffer[5][7:0] = nxt_buffer[5][7:0];
+		nxt_buffer[6][7:0] = nxt_buffer[6][7:0];
+		nxt_buffer[7][7:0] = nxt_buffer[7][7:0];
+
+
+		nxt_buffer[8][7:0] = nxt_buffer[8][7:0];
+		nxt_buffer[9][7:0] = nxt_buffer[9][7:0];
+		nxt_buffer[10][7:0] = nxt_buffer[10][7:0];
+		nxt_buffer[11][7:0] = nxt_buffer[11][7:0];
+		nxt_buffer[12][7:0] = nxt_buffer[12][7:0];
+		nxt_buffer[13][7:0] = nxt_buffer[13][7:0];
+		nxt_buffer[14][7:0] = nxt_buffer[14][7:0];
+		nxt_buffer[15][7:0] = nxt_buffer[15][7:0];
+		nxt_buffer[16][7:0] = nxt_buffer[16][7:0];
+		nxt_buffer[17][7:0] = nxt_buffer[17][7:0];
+		nxt_buffer[18][7:0] = nxt_buffer[18][7:0];
+		nxt_buffer[19][7:0] = nxt_buffer[19][7:0];
+		nxt_buffer[20][7:0] = nxt_buffer[20][7:0];
+
+		nxt_buffer[21][7:0] = nxt_buffer[21][7:0];
+		nxt_buffer[22][7:0] = nxt_buffer[22][7:0];
+		nxt_buffer[23][7:0] = nxt_buffer[23][7:0];
+		nxt_buffer[24][7:0] = nxt_buffer[24][7:0];
+		nxt_buffer[25][7:0] = nxt_buffer[25][7:0];
+		nxt_buffer[26][7:0] = nxt_buffer[26][7:0];
+		nxt_buffer[27][7:0] = nxt_buffer[27][7:0];
+		nxt_buffer[28][7:0] = nxt_buffer[28][7:0];
+		nxt_buffer[29][7:0] = nxt_buffer[29][7:0];
+		nxt_buffer[30][7:0] = nxt_buffer[30][7:0];
+
+		nxt_buffer[31][7:0] = nxt_buffer[31][7:0];
+		nxt_buffer[32][7:0] = nxt_buffer[32][7:0];
+		nxt_buffer[33][7:0] = nxt_buffer[33][7:0];
+		nxt_buffer[34][7:0] = nxt_buffer[34][7:0];
+		nxt_buffer[35][7:0] = nxt_buffer[35][7:0];
+		nxt_buffer[36][7:0] = nxt_buffer[36][7:0];
+		nxt_buffer[37][7:0] = nxt_buffer[37][7:0];
+		nxt_buffer[38][7:0] = nxt_buffer[38][7:0];
+		nxt_buffer[39][7:0] = nxt_buffer[39][7:0];
+		nxt_buffer[40][7:0] = nxt_buffer[40][7:0];
+		nxt_buffer[41][7:0] = nxt_buffer[41][7:0];
+		nxt_buffer[42][7:0] = nxt_buffer[42][7:0];
+
+		nxt_buffer[43][7:0] = nxt_buffer[43][7:0];
+		nxt_buffer[44][7:0] = nxt_buffer[44][7:0];
+		nxt_buffer[45][7:0] = nxt_buffer[45][7:0];
+		nxt_buffer[46][7:0] = nxt_buffer[46][7:0];
+		nxt_buffer[47][7:0] = nxt_buffer[47][7:0];
+		nxt_buffer[48][7:0] = nxt_buffer[48][7:0];
+		nxt_buffer[49][7:0] = nxt_buffer[49][7:0];
+		
+		nxt_buffer[50][7:0] = nxt_buffer[50][7:0];
+		nxt_buffer[51][7:0] = nxt_buffer[51][7:0];
+		nxt_buffer[52][7:0] = nxt_buffer[52][7:0];
+		nxt_buffer[53][7:0] = nxt_buffer[53][7:0];
+		nxt_buffer[54][7:0] = nxt_buffer[54][7:0];
+		nxt_buffer[55][7:0] = nxt_buffer[55][7:0];
+		nxt_buffer[56][7:0] = nxt_buffer[56][7:0];
+		nxt_buffer[57][7:0] = nxt_buffer[57][7:0];
+		nxt_buffer[58][7:0] = nxt_buffer[58][7:0];
+		nxt_buffer[59][7:0] = nxt_buffer[59][7:0];
+		nxt_buffer[60][7:0] = nxt_buffer[60][7:0];
+
+		nxt_buffer[61][7:0] = nxt_buffer[61][7:0];
+		nxt_buffer[62][7:0] = nxt_buffer[62][7:0];
+		nxt_buffer[63][7:0] = nxt_buffer[63][7:0];
+		nxt_buffer[64][7:0] = nxt_buffer[64][7:0];
+		nxt_buffer[65][7:0] = nxt_buffer[65][7:0];
+		nxt_buffer[66][7:0] = nxt_buffer[66][7:0];
+		nxt_buffer[67][7:0] = nxt_buffer[67][7:0];
+		nxt_buffer[68][7:0] = nxt_buffer[68][7:0];
+		nxt_buffer[69][7:0] = nxt_buffer[69][7:0];
+		nxt_buffer[70][7:0] = nxt_buffer[70][7:0];
+
+		nxt_buffer[71][7:0] = nxt_buffer[71][7:0];
+		nxt_buffer[72][7:0] = nxt_buffer[72][7:0];
+		nxt_buffer[73][7:0] = nxt_buffer[73][7:0];
+		nxt_buffer[74][7:0] = nxt_buffer[74][7:0];
+		nxt_buffer[75][7:0] = nxt_buffer[75][7:0];
+		nxt_buffer[76][7:0] = nxt_buffer[76][7:0];
+		nxt_buffer[77][7:0] = nxt_buffer[77][7:0];
+		nxt_buffer[78][7:0] = nxt_buffer[78][7:0];
+		nxt_buffer[79][7:0] = nxt_buffer[79][7:0];
+		nxt_buffer[80][7:0] = nxt_buffer[80][7:0];
+
+		nxt_buffer[81][7:0] = nxt_buffer[81][7:0];
+		nxt_buffer[82][7:0] = nxt_buffer[82][7:0];
+		nxt_buffer[83][7:0] = nxt_buffer[83][7:0];
+		nxt_buffer[84][7:0] = nxt_buffer[84][7:0];
+		nxt_buffer[85][7:0] = nxt_buffer[85][7:0];
+		nxt_buffer[86][7:0] = nxt_buffer[86][7:0];
+		nxt_buffer[87][7:0] = nxt_buffer[87][7:0];
+		nxt_buffer[88][7:0] = nxt_buffer[88][7:0];
+		nxt_buffer[89][7:0] = nxt_buffer[89][7:0];
+		nxt_buffer[90][7:0] = nxt_buffer[90][7:0];
+		nxt_buffer[91][7:0] = nxt_buffer[91][7:0];
+		nxt_buffer[92][7:0] = nxt_buffer[92][7:0];
+		nxt_buffer[93][7:0] = nxt_buffer[93][7:0];
+		nxt_buffer[94][7:0] = nxt_buffer[94][7:0];
+		nxt_buffer[95][7:0] = nxt_buffer[95][7:0];
+		nxt_buffer[96][7:0] = nxt_buffer[96][7:0];
+		nxt_buffer[97][7:0] = nxt_buffer[97][7:0];
+		nxt_buffer[98][7:0] = nxt_buffer[98][7:0];
+		nxt_buffer[99][7:0] = nxt_buffer[99][7:0];
+
+		nxt_buffer[100][7:0] = nxt_buffer[100][7:0];
+		nxt_buffer[101][7:0] = nxt_buffer[101][7:0];
+		nxt_buffer[102][7:0] = nxt_buffer[102][7:0];
+		nxt_buffer[103][7:0] = nxt_buffer[103][7:0];
+		nxt_buffer[104][7:0] = nxt_buffer[104][7:0];
+		nxt_buffer[105][7:0] = nxt_buffer[105][7:0];
+		nxt_buffer[106][7:0] = nxt_buffer[106][7:0];
+		nxt_buffer[107][7:0] = nxt_buffer[107][7:0];
+		nxt_buffer[108][7:0] = nxt_buffer[108][7:0];
+		nxt_buffer[109][7:0] = nxt_buffer[109][7:0];
+
+		nxt_buffer[110][7:0] = nxt_buffer[110][7:0];
+		nxt_buffer[111][7:0] = nxt_buffer[111][7:0];
+		nxt_buffer[112][7:0] = nxt_buffer[112][7:0];
+		nxt_buffer[113][7:0] = nxt_buffer[113][7:0];
+		nxt_buffer[114][7:0] = nxt_buffer[114][7:0];
+		nxt_buffer[115][7:0] = nxt_buffer[115][7:0];
+		nxt_buffer[116][7:0] = nxt_buffer[116][7:0];
+		nxt_buffer[117][7:0] = nxt_buffer[117][7:0];
+		nxt_buffer[118][7:0] = nxt_buffer[118][7:0];
+		nxt_buffer[119][7:0] = nxt_buffer[119][7:0];
+
+		nxt_buffer[120][7:0] = nxt_buffer[120][7:0];
+		nxt_buffer[121][7:0] = nxt_buffer[121][7:0];
+		nxt_buffer[122][7:0] = nxt_buffer[122][7:0];
+		nxt_buffer[123][7:0] = nxt_buffer[123][7:0];
+		nxt_buffer[124][7:0] = nxt_buffer[124][7:0];
+		nxt_buffer[125][7:0] = nxt_buffer[125][7:0];
+		nxt_buffer[126][7:0] = nxt_buffer[126][7:0];
+		nxt_buffer[127][7:0] = nxt_buffer[127][7:0];
 		next_state = idle;
 		end
 
@@ -559,6 +701,150 @@ end//idle state ends
 	//end//else ends
 
 end//load_buffer state ends
+	
+	default:
+	begin
+		nxt_buffer[0][7:0] = nxt_buffer[0][7:0];
+		nxt_buffer[1][7:0] = nxt_buffer[1][7:0];
+		nxt_buffer[2][7:0] = nxt_buffer[2][7:0];
+		nxt_buffer[3][7:0] = nxt_buffer[3][7:0];
+		nxt_buffer[4][7:0] = nxt_buffer[4][7:0];
+		nxt_buffer[5][7:0] = nxt_buffer[5][7:0];
+		nxt_buffer[6][7:0] = nxt_buffer[6][7:0];
+		nxt_buffer[7][7:0] = nxt_buffer[7][7:0];
+
+
+		nxt_buffer[8][7:0] = nxt_buffer[8][7:0];
+		nxt_buffer[9][7:0] = nxt_buffer[9][7:0];
+		nxt_buffer[10][7:0] = nxt_buffer[10][7:0];
+		nxt_buffer[11][7:0] = nxt_buffer[11][7:0];
+		nxt_buffer[12][7:0] = nxt_buffer[12][7:0];
+		nxt_buffer[13][7:0] = nxt_buffer[13][7:0];
+		nxt_buffer[14][7:0] = nxt_buffer[14][7:0];
+		nxt_buffer[15][7:0] = nxt_buffer[15][7:0];
+		nxt_buffer[16][7:0] = nxt_buffer[16][7:0];
+		nxt_buffer[17][7:0] = nxt_buffer[17][7:0];
+		nxt_buffer[18][7:0] = nxt_buffer[18][7:0];
+		nxt_buffer[19][7:0] = nxt_buffer[19][7:0];
+		nxt_buffer[20][7:0] = nxt_buffer[20][7:0];
+
+		nxt_buffer[21][7:0] = nxt_buffer[21][7:0];
+		nxt_buffer[22][7:0] = nxt_buffer[22][7:0];
+		nxt_buffer[23][7:0] = nxt_buffer[23][7:0];
+		nxt_buffer[24][7:0] = nxt_buffer[24][7:0];
+		nxt_buffer[25][7:0] = nxt_buffer[25][7:0];
+		nxt_buffer[26][7:0] = nxt_buffer[26][7:0];
+		nxt_buffer[27][7:0] = nxt_buffer[27][7:0];
+		nxt_buffer[28][7:0] = nxt_buffer[28][7:0];
+		nxt_buffer[29][7:0] = nxt_buffer[29][7:0];
+		nxt_buffer[30][7:0] = nxt_buffer[30][7:0];
+
+		nxt_buffer[31][7:0] = nxt_buffer[31][7:0];
+		nxt_buffer[32][7:0] = nxt_buffer[32][7:0];
+		nxt_buffer[33][7:0] = nxt_buffer[33][7:0];
+		nxt_buffer[34][7:0] = nxt_buffer[34][7:0];
+		nxt_buffer[35][7:0] = nxt_buffer[35][7:0];
+		nxt_buffer[36][7:0] = nxt_buffer[36][7:0];
+		nxt_buffer[37][7:0] = nxt_buffer[37][7:0];
+		nxt_buffer[38][7:0] = nxt_buffer[38][7:0];
+		nxt_buffer[39][7:0] = nxt_buffer[39][7:0];
+		nxt_buffer[40][7:0] = nxt_buffer[40][7:0];
+		nxt_buffer[41][7:0] = nxt_buffer[41][7:0];
+		nxt_buffer[42][7:0] = nxt_buffer[42][7:0];
+
+		nxt_buffer[43][7:0] = nxt_buffer[43][7:0];
+		nxt_buffer[44][7:0] = nxt_buffer[44][7:0];
+		nxt_buffer[45][7:0] = nxt_buffer[45][7:0];
+		nxt_buffer[46][7:0] = nxt_buffer[46][7:0];
+		nxt_buffer[47][7:0] = nxt_buffer[47][7:0];
+		nxt_buffer[48][7:0] = nxt_buffer[48][7:0];
+		nxt_buffer[49][7:0] = nxt_buffer[49][7:0];
+		
+		nxt_buffer[50][7:0] = nxt_buffer[50][7:0];
+		nxt_buffer[51][7:0] = nxt_buffer[51][7:0];
+		nxt_buffer[52][7:0] = nxt_buffer[52][7:0];
+		nxt_buffer[53][7:0] = nxt_buffer[53][7:0];
+		nxt_buffer[54][7:0] = nxt_buffer[54][7:0];
+		nxt_buffer[55][7:0] = nxt_buffer[55][7:0];
+		nxt_buffer[56][7:0] = nxt_buffer[56][7:0];
+		nxt_buffer[57][7:0] = nxt_buffer[57][7:0];
+		nxt_buffer[58][7:0] = nxt_buffer[58][7:0];
+		nxt_buffer[59][7:0] = nxt_buffer[59][7:0];
+		nxt_buffer[60][7:0] = nxt_buffer[60][7:0];
+
+		nxt_buffer[61][7:0] = nxt_buffer[61][7:0];
+		nxt_buffer[62][7:0] = nxt_buffer[62][7:0];
+		nxt_buffer[63][7:0] = nxt_buffer[63][7:0];
+		nxt_buffer[64][7:0] = nxt_buffer[64][7:0];
+		nxt_buffer[65][7:0] = nxt_buffer[65][7:0];
+		nxt_buffer[66][7:0] = nxt_buffer[66][7:0];
+		nxt_buffer[67][7:0] = nxt_buffer[67][7:0];
+		nxt_buffer[68][7:0] = nxt_buffer[68][7:0];
+		nxt_buffer[69][7:0] = nxt_buffer[69][7:0];
+		nxt_buffer[70][7:0] = nxt_buffer[70][7:0];
+
+		nxt_buffer[71][7:0] = nxt_buffer[71][7:0];
+		nxt_buffer[72][7:0] = nxt_buffer[72][7:0];
+		nxt_buffer[73][7:0] = nxt_buffer[73][7:0];
+		nxt_buffer[74][7:0] = nxt_buffer[74][7:0];
+		nxt_buffer[75][7:0] = nxt_buffer[75][7:0];
+		nxt_buffer[76][7:0] = nxt_buffer[76][7:0];
+		nxt_buffer[77][7:0] = nxt_buffer[77][7:0];
+		nxt_buffer[78][7:0] = nxt_buffer[78][7:0];
+		nxt_buffer[79][7:0] = nxt_buffer[79][7:0];
+		nxt_buffer[80][7:0] = nxt_buffer[80][7:0];
+
+		nxt_buffer[81][7:0] = nxt_buffer[81][7:0];
+		nxt_buffer[82][7:0] = nxt_buffer[82][7:0];
+		nxt_buffer[83][7:0] = nxt_buffer[83][7:0];
+		nxt_buffer[84][7:0] = nxt_buffer[84][7:0];
+		nxt_buffer[85][7:0] = nxt_buffer[85][7:0];
+		nxt_buffer[86][7:0] = nxt_buffer[86][7:0];
+		nxt_buffer[87][7:0] = nxt_buffer[87][7:0];
+		nxt_buffer[88][7:0] = nxt_buffer[88][7:0];
+		nxt_buffer[89][7:0] = nxt_buffer[89][7:0];
+		nxt_buffer[90][7:0] = nxt_buffer[90][7:0];
+		nxt_buffer[91][7:0] = nxt_buffer[91][7:0];
+		nxt_buffer[92][7:0] = nxt_buffer[92][7:0];
+		nxt_buffer[93][7:0] = nxt_buffer[93][7:0];
+		nxt_buffer[94][7:0] = nxt_buffer[94][7:0];
+		nxt_buffer[95][7:0] = nxt_buffer[95][7:0];
+		nxt_buffer[96][7:0] = nxt_buffer[96][7:0];
+		nxt_buffer[97][7:0] = nxt_buffer[97][7:0];
+		nxt_buffer[98][7:0] = nxt_buffer[98][7:0];
+		nxt_buffer[99][7:0] = nxt_buffer[99][7:0];
+
+		nxt_buffer[100][7:0] = nxt_buffer[100][7:0];
+		nxt_buffer[101][7:0] = nxt_buffer[101][7:0];
+		nxt_buffer[102][7:0] = nxt_buffer[102][7:0];
+		nxt_buffer[103][7:0] = nxt_buffer[103][7:0];
+		nxt_buffer[104][7:0] = nxt_buffer[104][7:0];
+		nxt_buffer[105][7:0] = nxt_buffer[105][7:0];
+		nxt_buffer[106][7:0] = nxt_buffer[106][7:0];
+		nxt_buffer[107][7:0] = nxt_buffer[107][7:0];
+		nxt_buffer[108][7:0] = nxt_buffer[108][7:0];
+		nxt_buffer[109][7:0] = nxt_buffer[109][7:0];
+
+		nxt_buffer[110][7:0] = nxt_buffer[110][7:0];
+		nxt_buffer[111][7:0] = nxt_buffer[111][7:0];
+		nxt_buffer[112][7:0] = nxt_buffer[112][7:0];
+		nxt_buffer[113][7:0] = nxt_buffer[113][7:0];
+		nxt_buffer[114][7:0] = nxt_buffer[114][7:0];
+		nxt_buffer[115][7:0] = nxt_buffer[115][7:0];
+		nxt_buffer[116][7:0] = nxt_buffer[116][7:0];
+		nxt_buffer[117][7:0] = nxt_buffer[117][7:0];
+		nxt_buffer[118][7:0] = nxt_buffer[118][7:0];
+		nxt_buffer[119][7:0] = nxt_buffer[119][7:0];
+
+		nxt_buffer[120][7:0] = nxt_buffer[120][7:0];
+		nxt_buffer[121][7:0] = nxt_buffer[121][7:0];
+		nxt_buffer[122][7:0] = nxt_buffer[122][7:0];
+		nxt_buffer[123][7:0] = nxt_buffer[123][7:0];
+		nxt_buffer[124][7:0] = nxt_buffer[124][7:0];
+		nxt_buffer[125][7:0] = nxt_buffer[125][7:0];
+		nxt_buffer[126][7:0] = nxt_buffer[126][7:0];
+		nxt_buffer[127][7:0] = nxt_buffer[127][7:0];
+	end
 endcase
 
 	if(count_out == 9'd128)
@@ -572,10 +858,5 @@ endcase
 		rf1 = 0;
 	end
 end//always_comb block ends
-
-always_comb
-begin
-
-end
 
 endmodule

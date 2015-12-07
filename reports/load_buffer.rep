@@ -1,0 +1,112 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'load_buffer' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : load_buffer
+Version: K-2015.06-SP1
+Date   : Mon Dec  7 14:51:25 2015
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: count_out_reg[8]
+              (rising edge-triggered flip-flop)
+  Endpoint: counter_complete
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  count_out_reg[8]/CLK (DFFSR)             0.00 #     0.00 r
+  count_out_reg[8]/Q (DFFSR)               0.52       0.52 r
+  U3281/Y (INVX1)                          0.21       0.73 f
+  U3279/Y (NAND3X1)                        0.18       0.91 r
+  U3275/Y (NOR2X1)                         0.18       1.09 f
+  U3274/Y (NAND3X1)                        0.20       1.29 r
+  U3250/Y (INVX1)                          0.06       1.35 f
+  counter_complete (out)                   0.00       1.35 f
+  data arrival time                                   1.35
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
+ 
+****************************************
+Report : area
+Design : load_buffer
+Version: K-2015.06-SP1
+Date   : Mon Dec  7 14:51:25 2015
+****************************************
+
+Library(s) Used:
+
+    osu05_stdcells (File: /package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                         1054
+Number of nets:                          4314
+Number of cells:                         4279
+Number of combinational cells:           2210
+Number of sequential cells:              2068
+Number of macros/black boxes:               0
+Number of buf/inv:                       1151
+Number of references:                      10
+
+Combinational area:             628038.000000
+Buf/Inv area:                   174024.000000
+Noncombinational area:         1637856.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:               2265894.000000
+Total area:                 undefined
+1
+Loading db file '/package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : load_buffer
+Version: K-2015.06-SP1
+Date   : Mon Dec  7 14:51:25 2015
+****************************************
+
+
+Library(s) Used:
+
+    osu05_stdcells (File: /package/eda/cells/OSU/v2.7/synopsys/lib/ami05/osu05_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+load_buffer                              14.605  109.583  729.218  124.189 100.0
+  add_368 (load_buffer_DW01_inc_0)     1.24e-02 3.71e-02    2.073 4.94e-02   0.0
+1

@@ -1,0 +1,91 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecegrid/a/mg88/ece337/Project
+T_opt
+!s110 1449517935
+Vg<haT8Y<W:YRLL9FX[^EN2
+04 12 4 work adc_module_0 fast 0
+=1-5cb9017b479f-5665e36a-dd45c-501c
+o-quiet -auto_acc_if_foreign -work mapped_work -L /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work -L /home/ecegrid/a/ece337/Class0.5u/GOLD_LIB -Lf /home/ecegrid/a/ece337/Class0.5u/ECE337_IP/vsim +acc
+n@_opt
+OL;O;10.3b;59
+vadc_module_0
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1449517923
+!i10b 1
+!s100 JH]`P?K5X:iDKJLo]cb:`2
+IhgN_Y8>Qo<hGiZU94Wm2b2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 !s105 adc_module_0_v_unit
+S1
+R0
+Z5 w1449517916
+Z6 8mapped/adc_module_0.v
+Z7 Fmapped/adc_module_0.v
+L0 5841
+Z8 OL;L;10.3b;59
+r1
+!s85 0
+31
+Z9 !s108 1449517923.403187
+Z10 !s107 mapped/adc_module_0.v|
+Z11 !s90 -sv|-work|mapped_work|mapped/adc_module_0.v|
+!i113 0
+Z12 o-sv -work mapped_work
+Z13 tCoverage 63 CoverExcludeDefault 1 CoverOpt 1 CoverShortCircuit 0
+vload_buffer
+R1
+R2
+!i10b 1
+!s100 iJQ_a5`IP289`?0BDzZd<0
+I10FVem=zJXN9lfU>z`bKO0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 26
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vload_buffer_DW01_inc_0
+R1
+R2
+!i10b 1
+!s100 4=mJK][nf5QF^1F9aPea@3
+IKCNV98E?i[h7^2>JJ5[h]3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 8
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+nload_buffer_@d@w01_inc_0
