@@ -11,7 +11,8 @@ module work_buffer
 	input wire clk,
 	input wire n_rst,
 	input wire counter_in,
-	input wire [127:0][7:0] buffer_in_value
+	input wire [127:0][7:0] buffer_in_value,
+	output wire [127:0][7:0] buffer_out_value
 );
 
 
@@ -174,7 +175,7 @@ end
 always_comb
 begin
 
-	if(ctr == 7'd128)
+	if(counter_in == 1'b1)
 	begin
 		nxt_buffer[0][7:0] = buffer_in[0][7:0];
 		nxt_buffer[1][7:0] = buffer_in[1][7:0];

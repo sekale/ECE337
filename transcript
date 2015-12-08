@@ -9,10 +9,12 @@
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
 # vsim -Lf /home/ecegrid/a/ece337/Class0.5u/ECE337_IP/vsim -L /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work -L /home/ecegrid/a/ece337/Class0.5u/GOLD_LIB "+no_glitch_msg" -coverage -voptargs="+acc" -i -t ps source_work.adc_module_0 
-# Start time: 22:17:07 on Dec 07,2015
+# Start time: 22:42:37 on Dec 07,2015
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: source/adc_module_0.sv(36): (vopt-2685) [TFMPC] - Too few port connections for 'L1'.  Expected 6, found 5.
 # ** Warning: source/adc_module_0.sv(36): (vopt-2718) [TFMPC] - Missing connection for port 'counter_complete'.
+# ** Warning: source/load_buffer.sv(34): (vopt-2685) [TFMPC] - Too few port connections for 'W'.  Expected 5, found 4.
+# ** Warning: source/load_buffer.sv(34): (vopt-2718) [TFMPC] - Missing connection for port 'buffer_out_value'.
 # ** Warning: source/load_buffer.sv(525): (vopt-2182) 'nxt_buffer[0]' might be read before written in always_comb or always @* block.
 # ** Warning: source/load_buffer.sv(526): (vopt-2182) 'nxt_buffer[8]' might be read before written in always_comb or always @* block.
 # ** Warning: source/load_buffer.sv(527): (vopt-2182) 'nxt_buffer[16]' might be read before written in always_comb or always @* block.
@@ -145,10 +147,3 @@
 # Loading work.adc_module_0(fast)
 # Loading work.load_buffer(fast)
 # Loading work.work_buffer(fast)
-add wave -position insertpoint sim:/adc_module_0/*
-add wave -position insertpoint sim:/adc_module_0/L1/*
-view -new wave
-# .main_pane.wave1.interior.cs.body.pw.wf
-add wave -position insertpoint sim:/adc_module_0/L1/W/*
-add wave -position insertpoint sim:/adc_module_0/L1/W/*
-run 100000000ns

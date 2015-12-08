@@ -11,13 +11,15 @@ module work_buffer
 	input wire clk,
 	input wire n_rst,
 	input wire counter_in,
-	input wire [127:0][7:0] buffer_in_value
+	input wire [127:0][7:0] buffer_in_value,
+	output wire [127:0][7:0] buffer_out_value
 );
 
 
 reg [127:0][7:0] nxt_buffer; //this is my actual working buffer
 reg [127:0][7:0] buffer_in;
 
+assign buffer_out_value = nxt_buffer;
 
 always_ff @(posedge clk, negedge n_rst)
 begin
