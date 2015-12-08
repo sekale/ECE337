@@ -9,23 +9,145 @@
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
 # vsim -Lf /home/ecegrid/a/ece337/Class0.5u/ECE337_IP/vsim -L /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work -L /home/ecegrid/a/ece337/Class0.5u/GOLD_LIB "+no_glitch_msg" -coverage -voptargs="+acc" -i -t ps source_work.adc_module_0 
-# Start time: 14:53:21 on Dec 07,2015
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Start time: 22:06:40 on Dec 07,2015
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: source/adc_module_0.sv(36): (vopt-2685) [TFMPC] - Too few port connections for 'L1'.  Expected 6, found 5.
+# ** Warning: source/adc_module_0.sv(36): (vopt-2718) [TFMPC] - Missing connection for port 'counter_complete'.
+# ** Warning: source/load_buffer.sv(525): (vopt-2182) 'nxt_buffer[0]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(526): (vopt-2182) 'nxt_buffer[8]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(527): (vopt-2182) 'nxt_buffer[16]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(528): (vopt-2182) 'nxt_buffer[24]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(529): (vopt-2182) 'nxt_buffer[32]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(530): (vopt-2182) 'nxt_buffer[40]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(531): (vopt-2182) 'nxt_buffer[48]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(534): (vopt-2182) 'nxt_buffer[56]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(535): (vopt-2182) 'nxt_buffer[64]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(536): (vopt-2182) 'nxt_buffer[72]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(537): (vopt-2182) 'nxt_buffer[80]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(538): (vopt-2182) 'nxt_buffer[88]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(539): (vopt-2182) 'nxt_buffer[96]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(540): (vopt-2182) 'nxt_buffer[104]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(541): (vopt-2182) 'nxt_buffer[112]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(542): (vopt-2182) 'nxt_buffer[120]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(543): (vopt-2182) 'nxt_buffer[128]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(544): (vopt-2182) 'nxt_buffer[136]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(545): (vopt-2182) 'nxt_buffer[144]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(546): (vopt-2182) 'nxt_buffer[152]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(548): (vopt-2182) 'nxt_buffer[160]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(549): (vopt-2182) 'nxt_buffer[168]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(550): (vopt-2182) 'nxt_buffer[176]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(551): (vopt-2182) 'nxt_buffer[184]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(552): (vopt-2182) 'nxt_buffer[192]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(553): (vopt-2182) 'nxt_buffer[200]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(554): (vopt-2182) 'nxt_buffer[208]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(555): (vopt-2182) 'nxt_buffer[216]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(556): (vopt-2182) 'nxt_buffer[224]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(557): (vopt-2182) 'nxt_buffer[232]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(559): (vopt-2182) 'nxt_buffer[240]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(560): (vopt-2182) 'nxt_buffer[248]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(561): (vopt-2182) 'nxt_buffer[256]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(562): (vopt-2182) 'nxt_buffer[264]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(563): (vopt-2182) 'nxt_buffer[272]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(564): (vopt-2182) 'nxt_buffer[280]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(565): (vopt-2182) 'nxt_buffer[288]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(566): (vopt-2182) 'nxt_buffer[296]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(567): (vopt-2182) 'nxt_buffer[304]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(568): (vopt-2182) 'nxt_buffer[312]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(569): (vopt-2182) 'nxt_buffer[320]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(570): (vopt-2182) 'nxt_buffer[328]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(572): (vopt-2182) 'nxt_buffer[336]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(573): (vopt-2182) 'nxt_buffer[344]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(574): (vopt-2182) 'nxt_buffer[352]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(575): (vopt-2182) 'nxt_buffer[360]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(576): (vopt-2182) 'nxt_buffer[368]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(577): (vopt-2182) 'nxt_buffer[376]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(578): (vopt-2182) 'nxt_buffer[384]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(580): (vopt-2182) 'nxt_buffer[392]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(581): (vopt-2182) 'nxt_buffer[400]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(582): (vopt-2182) 'nxt_buffer[408]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(583): (vopt-2182) 'nxt_buffer[416]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(584): (vopt-2182) 'nxt_buffer[424]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(585): (vopt-2182) 'nxt_buffer[432]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(586): (vopt-2182) 'nxt_buffer[440]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(587): (vopt-2182) 'nxt_buffer[448]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(588): (vopt-2182) 'nxt_buffer[456]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(589): (vopt-2182) 'nxt_buffer[464]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(590): (vopt-2182) 'nxt_buffer[472]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(592): (vopt-2182) 'nxt_buffer[480]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(593): (vopt-2182) 'nxt_buffer[488]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(594): (vopt-2182) 'nxt_buffer[496]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(595): (vopt-2182) 'nxt_buffer[504]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(596): (vopt-2182) 'nxt_buffer[512]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(597): (vopt-2182) 'nxt_buffer[520]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(598): (vopt-2182) 'nxt_buffer[528]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(599): (vopt-2182) 'nxt_buffer[536]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(600): (vopt-2182) 'nxt_buffer[544]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(601): (vopt-2182) 'nxt_buffer[552]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(603): (vopt-2182) 'nxt_buffer[560]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(604): (vopt-2182) 'nxt_buffer[568]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(605): (vopt-2182) 'nxt_buffer[576]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(606): (vopt-2182) 'nxt_buffer[584]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(607): (vopt-2182) 'nxt_buffer[592]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(608): (vopt-2182) 'nxt_buffer[600]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(609): (vopt-2182) 'nxt_buffer[608]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(610): (vopt-2182) 'nxt_buffer[616]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(611): (vopt-2182) 'nxt_buffer[624]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(612): (vopt-2182) 'nxt_buffer[632]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(614): (vopt-2182) 'nxt_buffer[640]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(615): (vopt-2182) 'nxt_buffer[648]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(616): (vopt-2182) 'nxt_buffer[656]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(617): (vopt-2182) 'nxt_buffer[664]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(618): (vopt-2182) 'nxt_buffer[672]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(619): (vopt-2182) 'nxt_buffer[680]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(620): (vopt-2182) 'nxt_buffer[688]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(621): (vopt-2182) 'nxt_buffer[696]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(622): (vopt-2182) 'nxt_buffer[704]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(623): (vopt-2182) 'nxt_buffer[712]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(624): (vopt-2182) 'nxt_buffer[720]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(625): (vopt-2182) 'nxt_buffer[728]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(626): (vopt-2182) 'nxt_buffer[736]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(627): (vopt-2182) 'nxt_buffer[744]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(628): (vopt-2182) 'nxt_buffer[752]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(629): (vopt-2182) 'nxt_buffer[760]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(630): (vopt-2182) 'nxt_buffer[768]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(631): (vopt-2182) 'nxt_buffer[776]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(632): (vopt-2182) 'nxt_buffer[784]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(634): (vopt-2182) 'nxt_buffer[792]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(635): (vopt-2182) 'nxt_buffer[800]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(636): (vopt-2182) 'nxt_buffer[808]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(637): (vopt-2182) 'nxt_buffer[816]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(638): (vopt-2182) 'nxt_buffer[824]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(639): (vopt-2182) 'nxt_buffer[832]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(640): (vopt-2182) 'nxt_buffer[840]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(641): (vopt-2182) 'nxt_buffer[848]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(642): (vopt-2182) 'nxt_buffer[856]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(643): (vopt-2182) 'nxt_buffer[864]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(645): (vopt-2182) 'nxt_buffer[872]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(646): (vopt-2182) 'nxt_buffer[880]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(647): (vopt-2182) 'nxt_buffer[888]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(648): (vopt-2182) 'nxt_buffer[896]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(649): (vopt-2182) 'nxt_buffer[904]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(650): (vopt-2182) 'nxt_buffer[912]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(651): (vopt-2182) 'nxt_buffer[920]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(652): (vopt-2182) 'nxt_buffer[928]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(653): (vopt-2182) 'nxt_buffer[936]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(654): (vopt-2182) 'nxt_buffer[944]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(656): (vopt-2182) 'nxt_buffer[952]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(657): (vopt-2182) 'nxt_buffer[960]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(658): (vopt-2182) 'nxt_buffer[968]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(659): (vopt-2182) 'nxt_buffer[976]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(660): (vopt-2182) 'nxt_buffer[984]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(661): (vopt-2182) 'nxt_buffer[992]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(662): (vopt-2182) 'nxt_buffer[1000]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(663): (vopt-2182) 'nxt_buffer[1008]' might be read before written in always_comb or always @* block.
+# ** Warning: source/load_buffer.sv(663): (vopt-2182) 'nxt_buffer[1016]' might be read before written in always_comb or always @* block.
 # Loading sv_std.std
 # Loading work.adc_module_0(fast)
 # Loading work.load_buffer(fast)
 # Loading work.work_buffer(fast)
-add wave -position insertpoint  \
-sim:/adc_module_0/twelve_bit_val \
-sim:/adc_module_0/tb_n_rst \
-sim:/adc_module_0/tb_clk \
-sim:/adc_module_0/tb_buffer_out_val \
-sim:/adc_module_0/shift_out_val \
-sim:/adc_module_0/shift_out \
-sim:/adc_module_0/data_out
 add wave -position insertpoint sim:/adc_module_0/*
 add wave -position insertpoint sim:/adc_module_0/L1/*
 add wave -position insertpoint sim:/adc_module_0/L1/W/*
-run 1000000000ns
-# End time: 14:56:29 on Dec 07,2015, Elapsed time: 0:03:08
-# Errors: 0, Warnings: 0
+run 100000000ns
+# End time: 22:14:54 on Dec 07,2015, Elapsed time: 0:08:14
+# Errors: 0, Warnings: 130

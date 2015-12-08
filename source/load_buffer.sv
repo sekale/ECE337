@@ -987,7 +987,7 @@ end//load_buffer state ends
 	end
 endcase
 
-	if(count_out == 9'd128)
+	if(count_out == 9'd63)
 	begin
 		rf1 = 1;
 		count_out_next ='0;

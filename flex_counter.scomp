@@ -1,9 +1,9 @@
 QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
-Start time: 14:50:36 on Dec 07,2015
+Start time: 22:16:50 on Dec 07,2015
 vlog -sv -work source_work source/flex_counter.sv 
 -- Compiling module flex_counter
 
 Top level modules:
 	flex_counter
-End time: 14:50:37 on Dec 07,2015, Elapsed time: 0:00:01
+End time: 22:16:51 on Dec 07,2015, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

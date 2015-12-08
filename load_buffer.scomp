@@ -1,5 +1,5 @@
 QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
-Start time: 14:50:32 on Dec 07,2015
+Start time: 22:16:39 on Dec 07,2015
 vlog -sv -work source_work source/load_buffer.sv 
 -- Compiling module load_buffer
 ** Warning: source/load_buffer.sv(525): (vlog-2182) 'nxt_buffer[0]' might be read before written in always_comb or always @* block.
@@ -133,5 +133,5 @@ vlog -sv -work source_work source/load_buffer.sv
 
 Top level modules:
 	load_buffer
-End time: 14:50:34 on Dec 07,2015, Elapsed time: 0:00:02
+End time: 22:16:42 on Dec 07,2015, Elapsed time: 0:00:03
 Errors: 0, Warnings: 128

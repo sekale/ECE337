@@ -4256,6 +4256,4161 @@ begin
 
 	shift_out_val = 1'b0;
 
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+
+	@(posedge tb_clk)
+
+	#((CLK_PERIOD)*12); //12 IDLE CLOCK CYCLES ACCORDING TO SPECIFICATION
+
+	twelve_bit_val[0] = 1'b1;
+	#(CLK_PERIOD);
+
+	twelve_bit_val[1] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[2] = 1'b0;
+	#(CLK_PERIOD); 
+
+	twelve_bit_val[3] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[4] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[5] = 1'b0;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[6] = 1'b1;
+
+	#(CLK_PERIOD); 
+	twelve_bit_val[7] = 1'b0;
+	
+	shift_out_val = 1'b1;
+	#(CLK_PERIOD*2);
+
+
+	shift_out_val = 1'b0;
+//------------------------------81 values end--------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 end
 assign data_out = twelve_bit_val;
 assign shift_out = shift_out_val;
